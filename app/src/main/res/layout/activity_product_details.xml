@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Product_Details">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="166dp"
+        android:layout_height="33dp"
+        android:layout_x="107dp"
+        android:layout_y="52dp"
+        android:textColor="#F50C0B0B" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="171dp"
+        android:layout_height="34dp"
+        android:layout_x="97dp"
+        android:layout_y="126dp"
+        android:textColor="#F50C0B0B" />
+
+    <TextView
+        android:id="@+id/quant"
+        android:layout_width="169dp"
+        android:layout_height="35dp"
+        android:layout_x="99dp"
+        android:layout_y="202dp"
+        android:textColor="#F50C0B0B" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="91dp"
+        android:layout_height="36dp"
+        android:layout_x="4dp"
+        android:layout_y="51dp"
+        android:text="Name :"
+        android:textColor="#F50E0D0D"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="81dp"
+        android:layout_height="33dp"
+        android:layout_x="6dp"
+        android:layout_y="129dp"
+        android:text="Price :"
+        android:textColor="#FC0F0F0F"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="76dp"
+        android:layout_height="35dp"
+        android:layout_x="4dp"
+        android:layout_y="206dp"
+        android:text="Quantity :"
+        android:textColor="#F80A0A0A"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="313dp"
+        android:text="Add New Order" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="198dp"
+        android:layout_y="314dp"
+        android:text="Show orders" />
+</AbsoluteLayout>

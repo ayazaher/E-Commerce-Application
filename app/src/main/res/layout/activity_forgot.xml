@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/forgot"
+    tools:context=".Forgot">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="120dp"
+        android:layout_height="51dp"
+        android:layout_x="14dp"
+        android:layout_y="479dp"
+        android:text="Email"
+        android:textColor="#FA0E0D0D"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="121dp"
+        android:layout_height="49dp"
+        android:layout_x="13dp"
+        android:layout_y="546dp"
+        android:text="Password"
+        android:textColor="#FC090808"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="202dp"
+        android:layout_y="477dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#F7090707" />
+
+    <Button
+        android:id="@+id/forgot_btn"
+        android:layout_width="169dp"
+        android:layout_height="87dp"
+        android:layout_x="126dp"
+        android:layout_y="634dp"
+        android:text="Forgot"
+        android:textAllCaps="false"
+        android:textColor="#141A15"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pass_txt"
+        android:layout_width="202dp"
+        android:layout_height="49dp"
+        android:layout_x="208dp"
+        android:layout_y="552dp" />
+
+</AbsoluteLayout>

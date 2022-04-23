@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context=".Register">
+
+
+    <EditText
+        android:id="@+id/name_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="168dp"
+        android:layout_y="60dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_x="20dp"
+        android:layout_y="63dp"
+        android:gravity="bottom"
+        android:text="Name"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="125dp"
+        android:layout_height="43dp"
+        android:layout_x="20dp"
+        android:layout_y="131dp"
+        android:gravity="bottom"
+        android:text="Email"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="146dp"
+        android:layout_height="41dp"
+        android:layout_x="20dp"
+        android:layout_y="202dp"
+        android:text="Password"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="181dp"
+        android:layout_height="46dp"
+        android:layout_x="18dp"
+        android:layout_y="289dp"
+        android:text="Confirm Password"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="126dp"
+        android:layout_height="41dp"
+        android:layout_x="17dp"
+        android:layout_y="370dp"
+        android:text="Birth of Date"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="462dp"
+        android:gravity="bottom"
+        android:text="Job"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="120dp"
+        android:layout_height="47dp"
+        android:layout_x="19dp"
+        android:layout_y="535dp"
+        android:text="Gender"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="562dp" />
+
+    <EditText
+        android:id="@+id/email_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="171dp"
+        android:layout_y="127dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <EditText
+        android:id="@+id/job_txt"
+        android:layout_width="255dp"
+        android:layout_height="49dp"
+        android:layout_x="146dp"
+        android:layout_y="446dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="213dp"
+        android:layout_height="81dp"
+        android:layout_x="188dp"
+        android:layout_y="518dp"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="540dp">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="@color/colorAccent"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="@color/colorAccent"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/SignUp_btn"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_x="78dp"
+        android:layout_y="591dp"
+        android:background="@color/colorAccent"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="650dp" />
+
+    <EditText
+        android:id="@+id/cal_txt"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_x="168dp"
+        android:layout_y="368dp"
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:foreground="?attr/colorControlHighlight"
+        android:hint="dd-yyy-mm"
+        android:textColor="@color/colorAccent"
+        android:textColorHighlight="#0E0A0B"
+        android:textColorHint="#EEEEEE"
+        android:textColorLink="#FF4081"
+        android:textCursorDrawable="@color/colorPrimary"
+        android:textSelectHandle="@color/colorPrimary"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="394dp"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/password_txt"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_x="193dp"
+        android:layout_y="189dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/con_txt"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_x="216dp"
+        android:layout_y="279dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/colorAccent" />
+
+</AbsoluteLayout>

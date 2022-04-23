@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login2"
+    tools:context=".Login">
+
+
+    <EditText
+        android:id="@+id/email_txt"
+        android:layout_width="174dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="27dp"
+        android:layout_x="141dp"
+        android:layout_y="270dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:gravity="start|left"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="#F5141313"
+        android:textColorHint="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/password_txt"
+        app:layout_constraintEnd_toEndOf="@+id/password_txt"
+        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+    <EditText
+        android:id="@+id/password_txt"
+        android:layout_width="171dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="15dp"
+        android:layout_x="143dp"
+        android:layout_y="399dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:gravity="start|left"
+        android:inputType="textPassword"
+        android:textColor="#F8111111"
+        android:textColorHint="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/login_btn"
+        app:layout_constraintEnd_toEndOf="@+id/login_btn"
+        app:layout_constraintTop_toBottomOf="@+id/email_txt" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="139dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="62dp"
+        android:layout_x="20dp"
+        android:layout_y="484dp"
+        android:text="Remember Me"
+        android:textColor="#FF00B7"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/forgot"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_txt" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginBottom="40dp"
+        android:layout_x="89dp"
+        android:layout_y="568dp"
+        android:background="@color/colorAccent"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textColor="#FF00B7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/forgot"
+        app:layout_constraintStart_toStartOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/password_txt" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="83dp"
+        android:layout_height="45dp"
+        android:layout_x="13dp"
+        android:layout_y="270dp"
+        android:text="Email"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-black" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_x="13dp"
+        android:layout_y="403dp"
+        android:text="Password"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-black" />
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="136dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="28dp"
+        android:layout_x="190dp"
+        android:layout_y="483dp"
+        android:gravity="center"
+        android:text="Forgot Password?"
+        android:textColor="#FF00B7"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttsignup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/checkBox"
+        app:layout_constraintTop_toBottomOf="@+id/login_btn" />
+
+</AbsoluteLayout>

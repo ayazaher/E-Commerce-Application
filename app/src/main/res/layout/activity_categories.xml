@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="363dp"
+        android:layout_height="547dp"
+        android:layout_x="13dp"
+        android:layout_y="136dp"
+        android:background="@color/colorAccent"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="162dp"
+        android:layout_height="66dp"
+        android:layout_x="117dp"
+        android:layout_y="41dp"
+        android:text="Categories"
+        android:textColor="#EC407A"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</AbsoluteLayout>
